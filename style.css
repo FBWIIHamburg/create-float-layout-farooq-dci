@@ -3,14 +3,14 @@
     margin: 0;
 }
 
-.main1 {
+.mainone {
     height: 100vh;
     width: 25%;
     background-color: aquamarine;
     float: left;
 }
 
-.main2 {
+.maintwo {
     height: 100vh;
     width: 75%;
     background-color: rgb(156, 148, 163);
@@ -42,6 +42,6 @@
 .aside {
     width: 25%;
     height: 50vh;
-    background-color: rgb(70, 70, 78);
+    background-color: rgb(70, 78, 70);
     float: left;
 }
