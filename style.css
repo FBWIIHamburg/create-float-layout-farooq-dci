@@ -1,47 +1,70 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     margin: 0;
 }
 
-.mainone {
-    height: 100vh;
-    width: 25%;
-    background-color: aquamarine;
-    float: left;
+.main {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+    flex-direction: row;
 }
 
-.maintwo {
-    height: 100vh;
-    width: 75%;
-    background-color: rgb(156, 148, 163);
-    float: left;
+.col-1 {
+    flex: 1;
+    background-color: gray;
+    min-height: 100vh;
+}
+
+.col-2 {
+    flex: 5;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    height: 25vh;
-    background-color: chocolate;
+    background-color: lightskyblue;
+    flex: 1;
 }
 
 .content {
-    height: 50vh;
-    background-color: chartreuse;
+    background-color: white;
+    flex: 4;
+    display: flex;
+    flex-direction: row;
 }
 
-.footer {
-    height: 25vh;
-    background-color: rgb(20, 57, 220);
-}
-
-.article {
-    width: 75%;
-    height: 50vh;
-    background-color: gray;
-    float: left;
+.middel {
+    flex: 4;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
 }
 
 .aside {
-    width: 25%;
-    height: 50vh;
-    background-color: rgb(70, 78, 70);
-    float: left;
+    flex: 1;
+    background-color: lightgreen;
+}
+
+.article {
+    flex: 4;
+    background-color: white;
+    text-align: center;
+}
+
+.flex {
+    color: blue;
+    font-size: 60px;
+}
+
+
+.footer {
+    flex: 1;
+    background-color: lightseagreen;
 }
