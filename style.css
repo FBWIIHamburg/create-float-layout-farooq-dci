@@ -3,14 +3,14 @@
     margin: 0;
 }
 
-.main1 {
+.maina {
     height: 100vh;
     width: 25%;
     background-color: aquamarine;
     float: left;
 }
 
-.main2 {
+.mainb {
     height: 100vh;
     width: 75%;
     background-color: blueviolet;
